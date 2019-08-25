@@ -12,6 +12,15 @@ public class RamdomTest {
 			System.out.println(rand_int);
 		}
 		
+		//Çâ»óµÈ for
+		int [] random_list = new int[3];
+		random_list[0] = (int)(Math.random()*100)+1;
+		random_list[1] = (int)(Math.random()*100)+1;
+		random_list[2] = (int)(Math.random()*100)+1;
+		
+		for(int i : random_list) {
+			System.out.println(i);
+		}
 	}
 
 }
